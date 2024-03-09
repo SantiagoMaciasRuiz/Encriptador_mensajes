@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="css/animacion.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="funciones.js" defer></script>
+</head>
+<body>
+<header>
+    <nav class="inicio">
+        <a href="index.html">Inicio</a>
+    </nav>
+</header>
+    <img class="banner" src="imagenes/Logo-1.png">
+    <div class="notificacion">
+        <img  src="imagenes/bi_exclamation-circle-fill.png" class="notificacion_imagen">  
+        <p>Solo letras minúsculas y sin acentos</p>
+    </div> 
+    <main>
+        <div class="texto-mostrar">
+            <img src="imagenes/Muñeco.png" alt="" class="muñeco">
+            <div class="texto-inicial">
+                <h1>Ningún mensaje fue encontrado</h1>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </div>
+        <div class="texto-Encrip-desencrip">
+            <textarea name="texto" id="texto-usuario" cols="70" rows="30" required placeholder="Ingresa aqui tu texto!"></textarea>
+            <textarea name="texto" id="texto-desencriptado" cols="70" rows="30" ></textarea>
+        </div>    
+        <div class="botones">
+            <button class="Encriptar" id="Encriptar" onclick="encriptar();">Encriptar</button>
+            <button class="Desencriptar" onclick="desencriptar();">Desencriptar</button>
+            <button class="copiar" onclick="copiar();" id="copiar">Copiar!</button>
+        </div>
+    </main>
+    
+</body>
+<script>
+
+</script>
+</html>
